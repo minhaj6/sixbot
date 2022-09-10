@@ -1,0 +1,8 @@
+source;share/sixbot/hook/cmake_prefix_path.ps1
+source;share/sixbot/hook/cmake_prefix_path.dsv
+source;share/sixbot/hook/cmake_prefix_path.sh
+source;share/sixbot/local_setup.bash
+source;share/sixbot/local_setup.dsv
+source;share/sixbot/local_setup.ps1
+source;share/sixbot/local_setup.sh
+source;share/sixbot/local_setup.zsh

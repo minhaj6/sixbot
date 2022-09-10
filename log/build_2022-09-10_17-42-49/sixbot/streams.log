@@ -1,0 +1,61 @@
+[0.036s] Invoking command in '/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/rover/ros2-workspaces/sixbot/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot
+[0.253s] -- The C compiler identification is GNU 9.4.0
+[0.402s] -- The CXX compiler identification is GNU 9.4.0
+[0.409s] -- Check for working C compiler: /usr/bin/cc
+[0.575s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.580s] -- Detecting C compiler ABI info
+[0.900s] -- Detecting C compiler ABI info - done
+[0.924s] -- Detecting C compile features
+[0.927s] -- Detecting C compile features - done
+[0.930s] -- Check for working CXX compiler: /usr/bin/c++
+[1.307s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.308s] -- Detecting CXX compiler ABI info
+[1.578s] -- Detecting CXX compiler ABI info - done
+[1.666s] -- Detecting CXX compile features
+[1.667s] -- Detecting CXX compile features - done
+[1.670s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.749s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.278s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.438s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.457s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.463s] -- Configured cppcheck include dirs: 
+[2.463s] -- Configured cppcheck exclude dirs and/or files: 
+[2.488s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.488s] -- Configured cpplint exclude dirs and/or files: 
+[2.492s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.504s] -- Added test 'lint_cmake' to check CMake code style
+[2.507s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.551s] -- Added test 'uncrustify' to check C / C++ code style
+[2.551s] -- Configured uncrustify additional arguments: 
+[2.553s] -- Added test 'xmllint' to check XML markup files
+[2.565s] -- Configuring done
+[2.579s] -- Generating done
+[2.591s] -- Build files have been written to: /home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot
+[2.597s] Invoked command in '/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/rover/ros2-workspaces/sixbot/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot
+[2.601s] Invoking command in '/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot -- -j4 -l4
+[2.755s] Invoked command in '/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot -- -j4 -l4
+[2.854s] Invoking command in '/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot
+[2.890s] -- Install configuration: ""
+[2.892s] -- Execute custom install script
+[2.902s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/config/empty.yaml
+[2.942s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/description/robot.urdf.xacro
+[2.956s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/launch/rsp.launch.py
+[2.981s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/worlds/empty.world
+[3.029s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/ament_index/resource_index/package_run_dependencies/sixbot
+[3.048s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/ament_index/resource_index/parent_prefix_path/sixbot
+[3.067s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/environment/ament_prefix_path.sh
+[3.115s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/environment/ament_prefix_path.dsv
+[3.142s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/environment/path.sh
+[3.165s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/environment/path.dsv
+[3.184s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/local_setup.bash
+[3.209s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/local_setup.sh
+[3.238s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/local_setup.zsh
+[3.268s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/local_setup.dsv
+[3.301s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/package.dsv
+[3.345s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/ament_index/resource_index/packages/sixbot
+[3.389s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/cmake/sixbotConfig.cmake
+[3.423s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/cmake/sixbotConfig-version.cmake
+[3.444s] -- Symlinking: /home/rover/ros2-workspaces/sixbot/src/my_bot/install/sixbot/share/sixbot/package.xml
+[3.473s] Invoked command in '/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot
