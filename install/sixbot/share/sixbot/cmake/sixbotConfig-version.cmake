@@ -1,1 +1,0 @@
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/ament_cmake_core/sixbotConfig-version.cmake

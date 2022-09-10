@@ -1,9 +1,0 @@
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/install/strip.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/install/local.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/install.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/list_install_components.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/rebuild_cache.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/edit_cache.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/test.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/sixbot_uninstall.dir
-/home/rover/ros2-workspaces/sixbot/src/my_bot/build/sixbot/CMakeFiles/uninstall.dir
